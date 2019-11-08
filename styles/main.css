@@ -1,0 +1,70 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    background: #005c5c;
+    color: #fff;
+    font-family: 'Georgia', serif;
+    margin: 0;
+    line-height: 1.5em
+    }
+h1 {
+    font-family: 'Tahoma, Arial', sans-serif;
+    }
+a {
+  color: #ffff00;
+  }
+
+a:hover {
+  color: #80ffff;
+        }
+
+#coverImg{
+  max-width:100%;
+  display: block;
+}
+#container{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  margin:1rem;
+}
+.albumCovers{
+  padding: 10px;
+}
+#about{
+  max-width: 475px;
+  padding-bottom: 10px;
+}
+
+#coverFlex{
+  display:flex;
+  justify-content: center;
+}
+footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+@media screen and (max-width: 1290px) {
+  #coverImg{
+    max-width: 100%;
+  }
+  #container{
+  justify-content: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  }
+  #coverFlex{
+    flex-wrap: wrap;
+    max-width:650px;
+  }
+  footer {
+    text-align:left;
+  }
+}
